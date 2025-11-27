@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "MUMBAI_CRITICAL_01",
+        "mcs_type": "MCC",
+        "intensity": "critical",
+        "rainfall_rate": 150.7,
+        "warning_level": "red",
+        "severity": "critical"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.9277,
+              19.126
+            ],
+            [
+              72.9277,
+              19.026
+            ],
+            [
+              72.8277,
+              19.026
+            ],
+            [
+              72.8277,
+              19.126
+            ],
+            [
+              72.9277,
+              19.126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "THANE_EXTREME_02",
+        "mcs_type": "SLD",
+        "intensity": "heavy",
+        "rainfall_rate": 115.6,
+        "warning_level": "red",
+        "severity": "heavy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.0277,
+              19.326
+            ],
+            [
+              73.0277,
+              19.226
+            ],
+            [
+              72.9277,
+              19.226
+            ],
+            [
+              72.9277,
+              19.326
+            ],
+            [
+              73.0277,
+              19.326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "NAVI_MUMBAI_SEVERE_03",
+        "mcs_type": "CC",
+        "intensity": "heavy",
+        "rainfall_rate": 105.4,
+        "warning_level": "orange",
+        "severity": "heavy"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.9577,
+              18.926
+            ],
+            [
+              72.9577,
+              18.826
+            ],
+            [
+              72.8577,
+              18.826
+            ],
+            [
+              72.8577,
+              18.926
+            ],
+            [
+              72.9577,
+              18.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PUNE_MONSOON_04",
+        "mcs_type": "MCC",
+        "intensity": "critical",
+        "rainfall_rate": 135.9,
+        "warning_level": "red",
+        "severity": "critical"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.5777,
+              18.276
+            ],
+            [
+              72.5777,
+              18.176
+            ],
+            [
+              72.4777,
+              18.176
+            ],
+            [
+              72.4777,
+              18.276
+            ],
+            [
+              72.5777,
+              18.276
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

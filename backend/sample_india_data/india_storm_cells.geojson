@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "MUMBAI_MONSOON_01",
+        "mcs_type": "MCC",
+        "intensity": "heavy",
+        "rainfall_rate": 95.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.9777,
+              19.176
+            ],
+            [
+              72.9777,
+              18.976
+            ],
+            [
+              72.7777,
+              18.976
+            ],
+            [
+              72.7777,
+              19.176
+            ],
+            [
+              72.9777,
+              19.176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "THANE_MONSOON_03",
+        "mcs_type": "SLD",
+        "intensity": "very_heavy",
+        "rainfall_rate": 125.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.1777,
+              19.476
+            ],
+            [
+              73.1777,
+              19.276
+            ],
+            [
+              72.9777,
+              19.276
+            ],
+            [
+              72.9777,
+              19.476
+            ],
+            [
+              73.1777,
+              19.476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cell_id": "PUNE_MONSOON_02",
+        "mcs_type": "CC",
+        "intensity": "moderate",
+        "rainfall_rate": 65.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.6777,
+              18.376
+            ],
+            [
+              72.6777,
+              18.176
+            ],
+            [
+              72.4777,
+              18.176
+            ],
+            [
+              72.4777,
+              18.376
+            ],
+            [
+              72.6777,
+              18.376
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

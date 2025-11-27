@@ -1,0 +1,118 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: url("../components/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* Glass effect container */
+.login-form-container {
+  width: 550px;
+  padding: 40px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.7s ease;
+}
+
+/* Title */
+.login-form h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Error message */
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Inputs */
+.login-form input {
+  width: 93.5%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: text;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-form input:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.01);
+}
+
+.login-form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #8e44ad, #c0392b);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.login-button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Extra links */
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.extra-links a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.extra-links a:hover {
+  color: #fff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

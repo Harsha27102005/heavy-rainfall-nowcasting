@@ -1,0 +1,195 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "DELHI_CRITICAL_01",
+                "mcs_type": "MCC",
+                "severity": "critical",
+                "max_rainfall_mmh": 347.2,
+                "warning_level": "red",
+                "location": "Delhi"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            77.1090,
+                            28.5139
+                        ],
+                        [
+                            77.3090,
+                            28.5139
+                        ],
+                        [
+                            77.3090,
+                            28.7139
+                        ],
+                        [
+                            77.1090,
+                            28.7139
+                        ],
+                        [
+                            77.1090,
+                            28.5139
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "MUMBAI_EXTREME_02",
+                "mcs_type": "SLD",
+                "severity": "critical",
+                "max_rainfall_mmh": 335.9,
+                "warning_level": "red",
+                "location": "Mumbai"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            72.7777,
+                            18.9760
+                        ],
+                        [
+                            72.9777,
+                            18.9760
+                        ],
+                        [
+                            72.9777,
+                            19.1760
+                        ],
+                        [
+                            72.7777,
+                            19.1760
+                        ],
+                        [
+                            72.7777,
+                            18.9760
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "KOLKATA_SEVERE_03",
+                "mcs_type": "CC",
+                "severity": "critical",
+                "max_rainfall_mmh": 292.9,
+                "warning_level": "red",
+                "location": "Kolkata"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            88.2639,
+                            22.4726
+                        ],
+                        [
+                            88.4639,
+                            22.4726
+                        ],
+                        [
+                            88.4639,
+                            22.6726
+                        ],
+                        [
+                            88.2639,
+                            22.6726
+                        ],
+                        [
+                            88.2639,
+                            22.4726
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "CHENNAI_HEAVY_04",
+                "mcs_type": "MCC",
+                "severity": "critical",
+                "max_rainfall_mmh": 307.3,
+                "warning_level": "red",
+                "location": "Chennai"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            80.1707,
+                            12.9827
+                        ],
+                        [
+                            80.3707,
+                            12.9827
+                        ],
+                        [
+                            80.3707,
+                            13.1827
+                        ],
+                        [
+                            80.1707,
+                            13.1827
+                        ],
+                        [
+                            80.1707,
+                            12.9827
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "cell_id": "BANGALORE_MONSOON_05",
+                "mcs_type": "SLD",
+                "severity": "heavy",
+                "max_rainfall_mmh": 275.8,
+                "warning_level": "red",
+                "location": "Bangalore"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            77.4946,
+                            12.8716
+                        ],
+                        [
+                            77.6946,
+                            12.8716
+                        ],
+                        [
+                            77.6946,
+                            13.0716
+                        ],
+                        [
+                            77.4946,
+                            13.0716
+                        ],
+                        [
+                            77.4946,
+                            12.8716
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

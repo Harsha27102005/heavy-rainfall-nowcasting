@@ -1,0 +1,137 @@
+.register-page {
+  display: flex;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  background: url("../components/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.register-form-container {
+  width: 550px;
+  padding: 40px;
+  margin-top: 60px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.7s ease;
+}
+
+.register-form h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.register-form input {
+  width: 93.5%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: text;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-form input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #8e44ad, #c0392b);
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* spacing between checkbox and label */
+  padding-left: 5px;
+  margin-bottom: 18px;
+}
+
+.checkbox-container input {
+  width: 18px;
+  height: 18px;
+  accent-color: #8e44ad;
+  /* modern browsers: changes checkbox color */
+  cursor: pointer;
+  margin: 0;
+}
+
+.checkbox-container label {
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.extra-links a {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.extra-links a:hover {
+  color: white;
+}
+
+.error-message {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+  border: 1px solid rgba(255, 107, 107, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
