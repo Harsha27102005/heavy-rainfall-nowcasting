@@ -1,10 +1,11 @@
 # backend/app/database.py
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo import MongoClient
+import certifi
 from app.config import settings
 
 # MongoDB client for async operations
-async_client = AsyncIOMotorClient(settings.MONGODB_URL)
+async_client = AsyncIOMotorClient(settings.MONGODB_URL, tlsCAFile=certifi.where())
 database = async_client[settings.MONGODB_DB_NAME]
 db = database
 
@@ -12,7 +13,7 @@ async def get_db():
     return db
 
 # MongoDB client for sync operations
-sync_client = MongoClient(settings.MONGODB_URL)
+sync_client = MongoClient(settings.MONGODB_URL, tlsCAFile=certifi.where())
 sync_database = sync_client[settings.MONGODB_DB_NAME]
 
 # Collections
